@@ -17,6 +17,9 @@ Note: Submitting your link in Canvas lets me know that you are ready for me to g
 Consider the 6 counting words examples in the [textbook module](https://srvanderplas.github.io/stat-computing-r-python/part-tools/04-scripts-notebooks.html#a-short-history-of-talking-to-computers) (they are in 3 separate 'your turn' sections). Look at the code, and then at the information provided for each example. What is different? What is the same? Write 2-3 sentences describing how script mode, interactive mode, and command-line mode differ in R and Python.
 
 ---
+#In the interactive mode we can easily move from R to python and vice versa by changing the terminal.
+The result of the code " 2+2" gives the same results in both R an python but the result is clearer and neat in python.
+#As for the script mode, after opening the file called "words-noinput", it appears as"words-noinput.R" which means it is R-file.
 
 Replace this line of text with your 2-3 sentences about script-mode, interactive mode, and command-line mode in R and Python
 
