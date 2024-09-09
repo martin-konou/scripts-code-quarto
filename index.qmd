@@ -6,11 +6,7 @@ author: "C. Martin Konou"
 output: html_document
 ---
 
-Instructions: Once you have finished this assignment, render the document (Ctrl/Cmd-Shift-K or the Render button). Commit the qmd file and any other files you have changed to the repository and push your changes.
-
-In Canvas, submit a link to your github repository containing the updated files. 
-
-Note: Submitting your link in Canvas lets me know that you are ready for me to grade your homework. You can commit half-finished or not-working homework to GitHub, and it is good practice to commit frequently (at least at the end of each work session). 
+Instructions: Once you have finished this assignment, render the document (Ctrl/Cmd-Shift-K or the Render button). Commit the qmd file and any other files you have changed to the repository and push your changes. In Canvas, submit a link to your github repository containing the updated files. Note: Submitting your link in Canvas lets me know that you are ready for me to grade your homework. You can commit half-finished or not-working homework to GitHub, and it is good practice to commit frequently (at least at the end of each work session).
 
 # Modes of Execution
 
@@ -28,10 +24,9 @@ In conclusion, the script mode is always prefer because it could be saved as tex
 (FYI,not for grade)The script is called do-file in Stata and does exactly the same thing.
 ---
 
-
 # Programming with Variables
 
-In this section, you'll demonstrate that you understand how to solve simple math problems using code. First, you'll want to define variables to represent the variables in the equation. Give the variables values that can be used to determine the value of the variable on the other side of the `=`. Then, write code to solve the equation for the value of the variable. 
+In this section, you'll demonstrate that you understand how to solve simple math problems using code. First, you'll want to define variables to represent the variables in the equation. Give the variables values that can be used to determine the value of the variable on the other side of the `=`. Then, write code to solve the equation for the value of the variable.
 
 ## Pythagorean Theorem in R
 
@@ -51,7 +46,7 @@ c
 
 $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 
-Use the chunk below to define variables $a$, $b$, and $c$, and then define $x1$ and $x2$, the possible values for $x$. You may find it helpful to define a few additional variables, such as the value of the discriminant $\sqrt{b^2 - 4ac}$, to make it easier to calculate the results. 
+Use the chunk below to define variables $a$, $b$, and $c$, and then define $x1$ and $x2$, the possible values for $x$. You may find it helpful to define a few additional variables, such as the value of the discriminant $\sqrt{b^2 - 4ac}$, to make it easier to calculate the results.
 
 ```{python quad-formula-py}
 # Your quadratic formula code goes here
