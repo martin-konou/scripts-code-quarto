@@ -2,7 +2,7 @@
 title: "Homework: Finding Your Way in R and Python"
 execute:
   error: true
-author: "Your Name"
+author: "C. Martin Konou"
 output: html_document
 ---
 
@@ -17,9 +17,15 @@ Note: Submitting your link in Canvas lets me know that you are ready for me to g
 Consider the 6 counting words examples in the [textbook module](https://srvanderplas.github.io/stat-computing-r-python/part-tools/04-scripts-notebooks.html#a-short-history-of-talking-to-computers) (they are in 3 separate 'your turn' sections). Look at the code, and then at the information provided for each example. What is different? What is the same? Write 2-3 sentences describing how script mode, interactive mode, and command-line mode differ in R and Python.
 
 ---
-
 Replace this line of text with your 2-3 sentences about script-mode, interactive mode, and command-line mode in R and Python
 
+Whether we are in R or python the script mode gives the opportunity to write the codes including data source in a separate text file and upload
+the codes in R or python and run them.
+As for interactive both in R and python, we have to type code in the console for R and the terminal for python before we run them. 
+The drawback with the interactive mode is that we have to re-type the codes each time we want to run them.
+Similary, for the command line there is advantage of adding comments to the codes and save them for future use.
+In conclusion, the script mode is always prefer because it could be saved as text file even with data link and can be run time.
+(FYI,not for grade)The script is called do-file in Stata and does exactly the same thing.
 ---
 
 
@@ -35,6 +41,9 @@ Use the chunk below to define variables $a$, $b$, and $c$, where you define the 
 
 ```{r pythagorean-theorem-r}
 # Your pythagorean theorem code goes here
+a<-3;b<-6
+c<- a^2 + b^2
+c
 
 ```
 
@@ -46,6 +55,15 @@ Use the chunk below to define variables $a$, $b$, and $c$, and then define $x1$ 
 
 ```{python quad-formula-py}
 # Your quadratic formula code goes here
+a=3
+b=6
+c=1
+dis=b**2-4*a*c
+dis_sqrt=dis**0.5
+x1=(-b+dis_sqrt)/2*a
+x1
+x2=(-b-dis_sqrt)/2*a
+x2
 
 ```
 
@@ -80,5 +98,12 @@ Here is how I solved the problem:
 
 ```{r cleaning-the-data-r}
 # Your implementation code goes here
+salary <- read.table("02-data.tsv", sep = "\t", header = T);
+#Replace the dollar $ in salary column
+salary[1, 2] <- 67872
+library(ggplot2)
+ggplot(salary, aes(x = Hire.Year, y = Salary, label = Name)) + 
+  geom_label()
+
 
 ```
