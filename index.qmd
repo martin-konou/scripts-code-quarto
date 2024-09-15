@@ -55,9 +55,9 @@ b=6
 c=1
 dis=b**2-4*a*c
 dis_sqrt=dis**0.5
-x1=(-b+dis_sqrt)/2*a
+x1=(-b+dis_sqrt)/(2*a)
 x1
-x2=(-b-dis_sqrt)/2*a
+x2=(-b-dis_sqrt)/(2*a)
 x2
 
 ```
