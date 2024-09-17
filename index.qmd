@@ -37,8 +37,8 @@ Use the chunk below to define variables $a$, $b$, and $c$, where you define the 
 ```{r pythagorean-theorem-r}
 # Your pythagorean theorem code goes here
 a<-3;b<-6
-c<- a^2 + b^2
-c
+c^2<- a^2 + b^2
+c^2
 
 ```
 
